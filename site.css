@@ -268,3 +268,29 @@ div#footer-widgets {
     padding-right: 5px;
   }
 }
+
+li#menu-item-334, li#menu-item-284, li#menu-item-285 {
+  float: left;
+  padding-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .et_pb_slide_0 .et_pb_slide_description h2 {
+    font-size: 27px !important;
+    line-height: 33px;
+  }
+  #post-39 .et_pb_slide .et_pb_container {
+    height: auto !important;
+  }
+  #post-39 .et_pb_slide b {
+    font-size: 20px;
+  }
+  #post-39 .et_pb_text_1 h1 {
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 35px;
+  }
+  #post-39 .et_pb_slide_content p {
+    font-size: 18px !important;
+  }
+}

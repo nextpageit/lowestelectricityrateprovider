@@ -272,3 +272,38 @@ div#footer-widgets {
         }
     }
 }
+
+li#menu-item-334, li#menu-item-284, li#menu-item-285 {
+    float: left;
+    padding-right: 20px;
+}
+
+//MOBILE ONLY RULES
+@media (max-width:600px){
+    .et_pb_slide_0 .et_pb_slide_description h2 {
+        font-size: 27px !important;
+        line-height: 33px;
+    }
+
+    #post-39{
+        .et_pb_slide {
+            .et_pb_container {
+                height: auto !important;
+            }
+
+            b {
+                font-size: 20px;
+            }
+        }
+
+        .et_pb_text_1 h1 {
+            font-weight: 600;
+            font-size: 29px;
+            line-height: 35px;
+        }
+
+        .et_pb_slide_content p {
+            font-size: 18px !important;
+        }
+    }
+}
