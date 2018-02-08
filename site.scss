@@ -3,7 +3,6 @@ $white: #fff;
 $dark-gray: #252936;
 $green: #8CAF24;
 $yellow: #FDC342;
-
 .boxed-block {
     background-color: $gray;
     padding-bottom: 0;
@@ -64,8 +63,7 @@ $yellow: #FDC342;
 }
 
 .post-249 {
-    .et_pb_row.et_pb_row_1
-    {
+    .et_pb_row.et_pb_row_1 {
         @extend .boxed-block-elements;
         @extend .boxed-block;
     }
@@ -220,27 +218,22 @@ div#footer-widgets {
         padding: 10px !important;
         height: 40px !important;
     }
-
     li#field_1_24 {
         padding-bottom: 30px;
     }
-
     .et_pb_row.et_pb_row_0.et_pb_equal_columns.et_pb_row_fullwidth {
         padding: 0;
     }
-
     li#field_1_37 {
         margin-right: 0;
     }
-
     li#field_1_41 {
         width: 250px;
         position: absolute;
         right: 10px;
         top: 50px;
     }
-
-    span.focus-jfilestyle > label {
+    span.focus-jfilestyle>label {
         border-radius: 28px;
         padding: 15px 50px;
         text-transform: uppercase;
@@ -249,23 +242,20 @@ div#footer-widgets {
         background-color: #606060;
         color: #fff;
     }
-
     li#field_1_5 {
         padding-top: 15px;
     }
-
-    li#field_1_5 > label{
+    li#field_1_5>label {
         display: none
     }
-
     @media (max-width:600px) {
-        li#field_1_40, li#field_1_1 {
+        li#field_1_40,
+        li#field_1_1 {
             width: 60%;
         }
-        li#field_1_41{
+        li#field_1_41 {
             position: initial;
         }
-
         .gfield {
             padding-left: 5px;
             padding-right: 5px;
@@ -273,35 +263,32 @@ div#footer-widgets {
     }
 }
 
-li#menu-item-334, li#menu-item-284, li#menu-item-285 {
-    float: left;
-    padding-right: 20px;
-}
-
 //MOBILE ONLY RULES
-@media (max-width:600px){
+@media (max-width:600px) {
+    li#menu-item-334,
+    li#menu-item-284,
+    li#menu-item-285 {
+        float: left;
+        padding-right: 20px;
+    }
     .et_pb_slide_0 .et_pb_slide_description h2 {
         font-size: 27px !important;
         line-height: 33px;
     }
-
-    #post-39{
+    #post-39 {
         .et_pb_slide {
             .et_pb_container {
                 height: auto !important;
             }
-
             b {
                 font-size: 20px;
             }
         }
-
         .et_pb_text_1 h1 {
             font-weight: 600;
             font-size: 29px;
             line-height: 35px;
         }
-
         .et_pb_slide_content p {
             font-size: 18px !important;
         }
